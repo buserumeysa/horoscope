@@ -14,3 +14,10 @@ dependencyResolutionManagement {
 }
 rootProject.name = "zaruygulmasi"
 include ':app'
+include ':app'
+include ':app'
+include ':app'
+include ':app'
+include ':app'
+include ':app'
+include ':app'
