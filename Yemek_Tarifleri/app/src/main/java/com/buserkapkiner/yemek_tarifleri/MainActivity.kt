@@ -25,7 +25,7 @@ class MainActivity : AppCompatActivity() {
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         if (item.itemId==R.id.yemek_ekle_item){
             val action= ListeFragmentDirections.actionListeFragmentToTarifFragment()
-            Navigation.findNavController(this,R.id.fragmentContainerView)
+            Navigation.findNavController(this,R.id.fragmentContainerView).navigate(action)
         }
         return super.onOptionsItemSelected(item)
     }
